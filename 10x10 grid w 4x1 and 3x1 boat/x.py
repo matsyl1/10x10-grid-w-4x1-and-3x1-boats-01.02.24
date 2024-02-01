@@ -63,8 +63,8 @@ while True:
 used_coord = {(x1,y1), (x2, y2), (x3, y3), (x4,y4)}
 
 # 3x1: first random coord.
-x1 = random.randint(0,4)
-y1 = random.randint(0,4)
+x1 = random.randint(0,9)
+y1 = random.randint(0,9)
 grid[y1, x1] = "3"
 
 # check for non-intersection between 4x1 and 3x1
@@ -105,3 +105,5 @@ while True:
         grid[y3, x3] = "3"
         print(grid)
         break
+
+
